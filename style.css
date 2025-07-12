@@ -18,4 +18,18 @@ body {
 
 h1 {
   animation: fadeIn 2s ease-out forwards;
+}button {
+  background-color: #008CBA;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005f73;
+  transform: scale(1.1);
 }
