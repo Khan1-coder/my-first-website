@@ -7,54 +7,51 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
     <h1>Khan</h1>
-    <p>I’m a researcher in Biochemistry & Molecular Biology and Next Generation Sequencing (NGS).</p>
+    <p>Researcher in Biochemistry & Molecular Biology and Next Generation Sequencing (NGS).</p>
   </header>
 
   <nav>
     <div class="nav-container">
-      <a href="index.html" class="nav-logo">Khan</a>
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+      <a href="#top" class="nav-logo">Khan</a>
       <ul class="nav-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <section>
-    <img src="profile-khan.jpg" alt="Khan's profile photo" class="profile" />
+  <section id="home" class="hero-section">
+    <img src="myphoto.jpg" alt="Profile Photo" class="profile" />
     <p>Exploring life at the molecular level through research, data, and discovery.</p>
     <button onclick="alert('Thank you for visiting!')">Click Me</button>
   </section>
 
-  <h2 id="gallery">My Image Gallery</h2>
-  <div class="gallery">
-    <div class="gallery-item">
-      <a href="lab-work.jpg" target="_blank">
-        <img src="lab-work.jpg" alt="Lab Work">
-      </a>
-      <p class="caption">In the lab</p>
+  <section id="gallery">
+    <h2>Research Gallery</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="photo1.jpg" alt="Photo 1">
+      </div>
+      <div class="gallery-item">
+        <img src="photo2.jpg" alt="Photo 2">
+      </div>
+      <div class="gallery-item">
+        <img src="photo3.jpg" alt="Photo 3">
+      </div>
+      <div class="gallery-item">
+        <img src="photo4.jpg" alt="Photo 4">
+      </div>
+      <div class="gallery-item">
+        <img src="photo5.jpg" alt="Photo 5">
+      </div>
     </div>
-    <div class="gallery-item">
-      <a href="experiment-setup.jpg" target="_blank">
-        <img src="experiment-setup.jpg" alt="Experiment Setup">
-      </a>
-      <p class="caption">Experiment Setup</p>
-    </div>
-    <div class="gallery-item">
-      <a href="data-analysis.jpg" target="_blank">
-        <img src="data-analysis.jpg" alt="Data Analysis">
-      </a>
-      <p class="caption">Data Analysis</p>
-    </div>
-  </div>
+  </section>
 
-  <footer>
-    <p>© 2025 Khan | Contact: aslamdawar@yahoo.com</p>
+  <footer id="contact">
     <h2>Contact Me</h2>
     <form class="contact-form">
       <input type="text" placeholder="Your Name" required />
@@ -62,6 +59,9 @@
       <textarea placeholder="Your Message" rows="5" required></textarea>
       <button type="submit">Send</button>
     </form>
+    <p>© 2025 Khan | <a href="mailto:aslamdawar@yahoo.com">aslamdawar@yahoo.com</a></p>
+    <a href="#top" class="back-to-top">↑ Back to Top</a>
   </footer>
+
 </body>
 </html>
