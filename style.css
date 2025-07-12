@@ -3,7 +3,9 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 20px;
-}@keyframes fadeIn {
+}
+
+@keyframes fadeIn {
   from {
     opacity: 0;
     transform: translateY(-30px);
