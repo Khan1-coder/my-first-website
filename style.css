@@ -50,4 +50,12 @@ button:hover {
 
 .gallery img:hover {
   transform: scale(1.1);
+}.gallery-item {
+  text-align: center;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
 }
