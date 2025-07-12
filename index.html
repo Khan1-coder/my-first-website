@@ -1,49 +1,60 @@
-<header>
-  <h1>Hi, I’m Islam!</h1>
-  <p>Welcome to my personal website</p>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My First Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hi, I’m Islam!</h1>
+    <p>Welcome to my personal website</p>
+  </header>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="#gallery">Gallery</a>
-</nav>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="#gallery">Gallery</a>
+  </nav>
 
-<section>
-  <img src="myphoto.jpg" alt="A photo of me" class="profile">
-  <p>I’m a researcher and scientist with experience in molecular biology, protein analysis, and bioinformatics.</p>
-  <button onclick="alert('Thanks for clicking!')">Click Me</button>
-</section>
+  <section>
+    <img src="myphoto.jpg" alt="A photo of me" class="profile" />
+    <p>I’m a researcher and scientist with experience in molecular biology, protein analysis, and bioinformatics.</p>
+    <button onclick="alert('Thanks for clicking!')">Click Me</button>
+  </section>
 
-<h2 id="gallery">My Image Gallery</h2>
-<div class="gallery">
-  <div class="gallery-item">
-    <a href="photo1.jpg" target="_blank">
-      <img src="photo1.jpg" alt="Photo 1">
-    </a>
-    <p class="caption">Me at the beach</p>
+  <h2 id="gallery">My Image Gallery</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <a href="photo1.jpg" target="_blank">
+        <img src="photo1.jpg" alt="Photo 1" />
+      </a>
+      <p class="caption">Me at the beach</p>
+    </div>
+    <div class="gallery-item">
+      <a href="photo2.jpg" target="_blank">
+        <img src="photo2.jpg" alt="Photo 2" />
+      </a>
+      <p class="caption">My cat sleeping</p>
+    </div>
+    <div class="gallery-item">
+      <a href="photo3.jpg" target="_blank">
+        <img src="photo3.jpg" alt="Photo 3" />
+      </a>
+      <p class="caption">Sunset view</p>
+    </div>
   </div>
-  <div class="gallery-item">
-    <a href="photo2.jpg" target="_blank">
-      <img src="photo2.jpg" alt="Photo 2">
-    </a>
-    <p class="caption">My cat sleeping</p>
-  </div>
-  <div class="gallery-item">
-    <a href="photo3.jpg" target="_blank">
-      <img src="photo3.jpg" alt="Photo 3">
-    </a>
-    <p class="caption">Sunset view</p>
-  </div>
-</div>
 
-<footer>
-  <p>© 2025 Islam Khan | Contact: aslamdawar@yahoo.com</p>
-  <h2>Contact Me</h2>
-<form class="contact-form">
-  <input type="text" placeholder="Your Name" required>
-  <input type="email" placeholder="Your Email" required>
-  <textarea placeholder="Your Message" rows="5" required></textarea>
-  <button type="submit">Send</button>
-</form>
-</footer>
+  <footer>
+    <p>© 2025 Islam Khan | Contact: aslamdawar@yahoo.com</p>
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </footer>
+</body>
+</html>
